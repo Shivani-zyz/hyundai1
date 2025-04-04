@@ -1,0 +1,446 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  color: black;
+}
+
+@media screen and (max-width:400px) {
+
+  
+  .f5 ul{
+   flex-direction: column;
+  }
+ 
+  .f3 ul{
+   flex-direction: column;
+  }
+  .f3 ul li{
+   margin: 5px;
+  }
+
+ .f7 ul{
+   flex-direction: column;
+   
+ }
+ #bt1{
+  position: relative;
+  right: 0px;
+ }
+ .im1 li{
+   font-size: 11px;
+ }
+ .f7{
+   padding: 0px;
+ }
+ .a ul li{
+   font-size: 10px;
+ }
+ 
+}
+
+
+
+.a {
+  display: flex;
+  justify-content: center;
+  box-shadow: 2px 2px 5px 2px rgb(170, 169, 169);
+  height: 40px;
+  width: 100%;
+}
+
+.a ul li img {
+  border: none;
+}
+
+.a ul {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+}
+
+.a ul li {
+  padding: 7px;
+  font-size: 12px;
+  border: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.b {
+  border: none;
+  background-color: rgb(232, 231, 231);
+  align-items: center;
+  margin-top: 40px;
+ 
+}
+
+.b img {
+  border: none;
+  width: 100%;
+  height: auto;
+}
+
+.c {
+  margin-top: 2px;
+  background-image: url(https://png.pngtree.com/background/20220721/original/pngtree-landscape-photography---blue-sky-and-white-clouds-picture-image_1692959.jpg);
+  background-size: cover;
+  height: 500px;
+  margin-top: 40px;
+}
+
+.c h1 {
+  font-family: sans-serif;
+  font-size: 44px;
+  padding-top: 190px;
+  padding-left: 80px;
+}
+
+.c p {
+  padding-left: 150px;
+  padding-top: 30px;
+  font-size: 14px;
+}
+
+.c1 {
+  padding: 2% 13%;
+  background-color: rgb(239, 236, 236);
+}
+
+.c1 h2 {
+  font-family: sans-serif;
+}
+
+.c1 p {
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.p {
+  width: 100%;
+  height: 300px;
+  background-color: white;
+  position: absolute;
+  top: 66px;
+  z-index: 1;
+}
+
+#b1 {
+  background-color: #002c5f;
+  border: none;
+  color: white;
+  position: absolute;
+  width: 140px;
+  height: 32px;
+  font-size: 12px;
+  top: 323px;
+  margin-left: 245px;
+}
+
+#b2 {
+  background-color: #002c5f;
+  border: none;
+  color: white;
+  position: absolute;
+  width: 140px;
+  height: 32px;
+  font-size: 12px;
+  margin-left: 245px;
+  top: 360px;
+}
+
+#na {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+
+.f {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.f1 {
+  background-color: rgb(253, 220, 225);
+  padding: 3%;
+  height: auto;
+  width: 800px;
+  border-radius: 5px;
+
+}
+
+.f1 input {
+  width: 250px;
+  height: 22px;
+  background-color: white;
+}
+
+.f1 ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.f1 button {
+  background-color: blue;
+  color: white;
+  width: 70px;
+  height: 25px;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.f2 ul {
+  display: flex;
+  justify-content: space-around;
+  width: 600px;
+  position: relative;
+  left: 2%;
+}
+
+.f2 ul li {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.f2 th {
+  color: rgb(123, 122, 122);
+}
+
+.mds img {
+  /* border: 2px solid red; */
+  width: 600px;
+  margin: 30px;
+  margin-left: 290px;
+}
+
+#mds1 li td {
+  display: block;
+}
+
+#mds1 th {
+  color: rgb(49, 48, 48);
+  font-size: 11.5px;
+}
+
+#mds1 ul {
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  right: 300px;
+  font-size: 11px;
+  list-style: none;
+  font-family: sans-serif;
+}
+
+.f3{
+  margin-top: -190px;
+  padding: 4% 15% 4% 15%;
+  background-color: rgb(222, 218, 218);
+ 
+}
+.f3 ul{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+}
+.f3 button{
+  width: 200px;
+  height: 40px;
+  border:none;
+  background-color: rgb(104, 103, 103);
+  color: white;
+  font-size: 11px;
+}
+.f4{
+  background-color:  #002c5f;
+  padding: 4% 15% 2% 15%;
+  color: white;
+  font-family: sans-serif;
+}
+.f4 h2{
+  position: relative;
+  top:2px;
+  color: white;
+}
+
+.f4 h1{
+  position: relative;
+  top:2px;
+  color: white;
+}
+.f4 h5{
+  color: white;
+}
+.f5{
+  padding: 5% 15% 5% 15%;
+}
+.f5 p{
+  font-family: sans-serif;
+  font-size: 15px;
+}
+.f5 ul{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+/* .slick-dots {
+  color: red;
+  background-color: yellow;
+} */
+
+.f6{
+  padding: 5% 0% 10% 0%;
+}
+.f6 img{
+  width: 100%;
+  height: auto;
+}
+
+#bt{
+  align-items: center;
+  width: 210px;
+  height: 40px;
+  border: none;
+  background-color: #002c5f;
+  color: white;
+}
+
+#bt1{
+  align-items: center;
+  width: 210px;
+  height: 40px;
+  border: none;
+  position: relative;
+  left: 570px;
+  background-color: #002c5f;
+  color: white;
+}
+
+
+#f4{
+  padding: 4% 15% 2% 15%;
+  margin: 4% 0% 2% 0%;
+}
+
+.f7{
+  padding: 4% 25% 2% 25%;
+}
+.f7 ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.f7 ul li img{
+  width: 290px;
+  height: 330px;
+}
+.f7 ul li{
+  padding: 1.5%;
+}
+
+.im{
+  background-image: url(https://th.bing.com/th/id/R.361003fc658034ddead0196741df98d3?rik=JLaJfdO1s%2fw%2bpg&riu=http%3a%2f%2fcdn.wallpapersafari.com%2f1%2f5%2fKbOsjI.jpg&ehk=%2fDHAsbOlWMxT7Ti5g%2bZc%2bU0qp6gdb8sdXlp5mO4ICeU%3d&risl=&pid=ImgRaw&r=0);
+  background-size: cover;
+  width: 100%;
+  height:600px;
+
+}
+
+.im h2{
+  font-size:35px;
+  font-family: sans-serif;
+  text-align: center;
+  position: relative;
+  top: 60px;
+}
+
+#btn{
+  position: relative;
+  width: 210px;
+  height: 40px;
+  border: none;
+  background-color: #002c5f;
+  color: white;
+}
+
+.im1 ul{
+  font-size: 22px;
+  letter-spacing:0.3px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: white;
+  position: relative;
+  line-height: 1.4;
+  text-align: center;
+  padding:8% 24% 4% 24%;
+  margin:0% 2%;
+  top:50px;
+  list-style: none;
+  height: 300px;
+}
+
+.p2{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  font-family: sans-serif;
+}
+.p2 ul li{
+  line-height: 2.5;
+  font-size: 13px;
+  list-style: none;
+  color:  rgb(100, 98, 98);
+  cursor: pointer;
+}
+.p3 ul li{
+  line-height: 2.5;
+  font-size: 13px;
+  list-style: none;
+  cursor: pointer;
+  color: rgb(100, 98, 98);
+  font-family: sans-serif;
+}
+.p3{
+  width: 100%;
+  padding:  2% 12% 0%;
+}
+.p5{
+  width: 100%;
+  padding:  2% 12% 0%;
+  cursor: pointer;
+}
+.p5 p{
+  color: rgb(100, 98, 98);
+  font-family: sans-serif;
+  line-height: 2.5;
+  font-size: 13px;
+}
+.p1{
+  padding: 2% 12%;
+}
+.p1 ul{
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  list-style: none;
+}
+.p1 ul li {
+  width: 120px;
+  height: 35px;
+  border:none;
+  border-radius: none;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-family: sans-serif;
+  background-color: rgb(40, 40, 254);
+  color: white;
+  font-weight: bold;
+}
