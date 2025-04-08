@@ -157,6 +157,12 @@ function Home({ pop, pop1, pop2, pop3, pop4, todo }) {
 
       <div className="b">
         <Slider {...settings}>
+
+          <div>
+            <button id="b1">Know more</button>
+            <img src="https://www.hyundai.com/content/dam/hyundai/in/en/images/ClicktoBuy/specialoffer/home_aprilspecialoffer_pc1.jpg" alt="" />
+          </div>
+
           <div >
             <button id="b1">Know More</button>
             <img src="https://www.hyundai.com/content/dam/hyundai/in/en/images/ClicktoBuy/home_march_pc.jpg" alt="" />
