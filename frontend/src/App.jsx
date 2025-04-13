@@ -54,7 +54,7 @@ function App() {
 
       <BrowserRouter>
       
-      {/* <Graph/> */}
+      
         <Nav pop={pop} setpop={setpop} pop1={pop1} setpop1={setpop1} pop2={pop2} setpop2={setpop2} pop3={pop3} setpop3={setpop3} pop4={pop4} setpop4={setpop4} />
         <Routes>
           <Route path='/ad' element={<AD f1={f1} />} />

@@ -462,14 +462,12 @@
   color: rgb(3, 3, 84);
 }
 
-.c3{
+.c2 ul{
   padding: 2% 15%;
 }
 
-#c3{
-  width: 20%;
-  height: auto;
-  display: flex;
-  justify-content: space-around;
+.c2 ul li{
+  text-align: center;
+  margin: 10px;
   border: 1px solid black;
-} 
+}

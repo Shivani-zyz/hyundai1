@@ -160,6 +160,11 @@ function Home({ pop, pop1, pop2, pop3, pop4, todo }) {
 
           <div>
             <button id="b1">Know more</button>
+            <img src="https://www.hyundai.com/content/dam/hyundai/in/en/images/homcce/pc/home_hycng_pc.jpg" alt="" />
+          </div>
+
+          <div>
+            <button id="b1">Know more</button>
             <img src="https://www.hyundai.com/content/dam/hyundai/in/en/images/ClicktoBuy/specialoffer/home_aprilspecialoffer_pc1.jpg" alt="" />
           </div>
 

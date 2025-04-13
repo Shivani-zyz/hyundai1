@@ -86,45 +86,32 @@ function Investors() {
 
         <p><u>Announcements</u></p>
 
-        <div className="c3">
+        
+          <ul>
+            <Slider {...settings4} >
 
-          <Slider {...settings4} >
 
 
-            <div id="c3">
-              jnkl
-            </div>
 
-            <div id="c3">
-              egh
-            </div>
 
-            <div id="c3">
-              xghj
-            </div>
+              <li></li>
 
-            <div id="c3">
-              dxfgvhbj
-            </div>
+              <li>2</li>
+              <li>3</li>
+              <li>4</li>
+              {/* <li>5</li>
+              <li>6</li>
+              <li>7</li>
+              <li>8</li> 
 
-            <div id="c3">
-              cgvhb
-            </div>
+               */}
 
-            <div id="c3">
-              ghbn
-            </div>
 
-            <div id="c3">
-              rd
-            </div>
 
-            <div id="c3">
-              tyu
-            </div>
 
-          </Slider>
-        </div>
+            </Slider>
+          </ul>
+        
 
       </div>
 
